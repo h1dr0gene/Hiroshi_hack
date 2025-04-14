@@ -1,0 +1,9 @@
+# Calculate the factorial of N
+N = 30
+# Initialize the factorial value as fact
+fact = 1
+# Multiply i in each iteration
+for i in range(1, N + 1): fact *= i
+# Display the factorial of N
+print(f"The factorial of {N} is {fact}")
+#change ' by "
