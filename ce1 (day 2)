@@ -1,0 +1,7 @@
+a=1
+while a <= 10001:
+    a*= 3
+
+print(f"The smallest number that is a power of 3 greater than 1000 is {a}")
+#The smallest number that is a power of 3 greater than 1000 is 19683    
+ 
