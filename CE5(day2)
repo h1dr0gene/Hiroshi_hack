@@ -1,0 +1,13 @@
+import random
+min = 0
+max = 4
+n=10000
+ran_sum=0
+for i in range(1,n+1):
+    ran = random.randint(min, max)
+    ran_sum += ran
+
+print(f'The mean is {ran_sum/n}')
+#add a plus on lines 8 to sum number
+
+#The mean is 2.0082
