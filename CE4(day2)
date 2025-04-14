@@ -1,0 +1,23 @@
+import random
+# Set min and max
+min = int(input('Set the min number: '))
+max = int(input('Set the max number: '))
+# Genrate a random integer between min and max
+ran = random.randint(min, max)
+# Initialize the parameter n that represents the number of trials
+n = 0
+# Repeat checking your guess until you guess correctly
+while True:
+    # Update the number of trials
+    n += 1
+    # Predict
+    x = int(input(f'Predict the number between {min} and {max}: '))
+    # Check your prediction
+    if x == ran:
+        print(f'Correct! You predicted the correct number in {n} trials')
+        break
+    elif x < ran:
+        print('The number is too small!')
+    else:
+        print('The number is too large!')
+#add + at N=1 to make counting of trial working 
