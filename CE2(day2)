@@ -1,3 +1,3 @@
 a = [10,20,30,40,50]
-print (a[-2])
+print (a[-2])# we are requesting the second item by begining at the end
 #40
